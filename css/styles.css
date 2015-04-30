@@ -1,6 +1,6 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/blue-background.jpg) repeat center center fixed; !important;
+  url(../img/bluish-background.jpg) repeat center center fixed; !important;
   background-size: 100% auto; !important;
   background-repeat: repeat; !important;
 }
@@ -11,10 +11,21 @@ body {
   height: 100%;
 }
 .navbar-inverse {
-  background-color: #000012;
+  background-color: #000000;
 }
 .body-container {
-  margin-top: 5% !important;
+  margin-top: 3.75% !important;
+}
+.horizontal-divider {
+  background: #fff;
+}
+hr {
+  border: 1px solid #353650
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: -30;
 }
 #form-main {
   margin-bottom: 10%;
